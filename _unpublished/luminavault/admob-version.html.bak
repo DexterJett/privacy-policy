@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung – Lumina Vault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 40px 20px;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: #4CAF50;
+            text-decoration: none;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #4CAF50, #81C784);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .app-name {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .overline {
+            color: #a0a0a0;
+            letter-spacing: 0.14em;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            color: #666;
+            margin-bottom: 24px;
+            font-size: 0.9rem;
+        }
+
+        .lang-nav {
+            margin-bottom: 28px;
+        }
+
+        .lang-nav a {
+            color: #4CAF50;
+            margin-right: 16px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #4CAF50;
+            margin: 30px 0 15px;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            color: #fff;
+            margin: 22px 0 10px;
+        }
+
+        p, ul {
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #4CAF50;
+        }
+
+        .highlight {
+            background: rgba(76, 175, 80, 0.1);
+            border-left: 3px solid #4CAF50;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+
+        .lang-block {
+            scroll-margin-top: 24px;
+            padding-top: 12px;
+        }
+
+        .lang-block + .lang-block {
+            margin-top: 48px;
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://dexterjett.github.io/" class="back-link">← Zurück</a>
+
+        <p class="overline">RELIKTJÄGER</p>
+        <h1>Lumina Vault</h1>
+        <p class="lang-nav">
+            <a href="#de">Deutsch</a>
+            <a href="#en">English</a>
+        </p>
+
+        <section id="de" class="lang-block" lang="de">
+            <p class="app-name">Datenschutzerklärung</p>
+            <p class="last-updated">Stand: 12. Oktober 2026</p>
+
+            <div class="highlight">
+                <strong>Kurz:</strong> Lumina Vault hat kein Konto und kein eigenes Backend. Der Spielstand bleibt auf dem Gerät und wird nicht an mich gesendet. Werbung kommt von Google AdMob.
+            </div>
+
+            <h2>Die App</h2>
+            <p>Lumina Vault ist ein Puzzle auf einem Raster für iPhone und iPad, nur im Hochformat. Die App ist kostenlos. Es gibt keine In-App-Käufe, kein Konto, kein Passwort und kein eigenes Backend.</p>
+            <p>Bundle-ID: com.michaelreal.luminavault</p>
+            <p>54 Kammern, fünf Welten: Quarzkammern, Glutforge, Frostarchiv, Schattennische, Nexuskrone.</p>
+            <p>Standardsprache ist Deutsch. Englisch gibt es nur unter Einstellungen → Sprache.</p>
+
+            <h2>Spielstand auf dem Gerät</h2>
+            <p>Der Spielstand liegt nur auf dem Gerät, Schlüssel <strong>luminavault.progress.v1</strong> (AsyncStorage). Darin stehen:</p>
+            <ul>
+                <li>Sterne</li>
+                <li>Splitter</li>
+                <li>Upgrades</li>
+                <li>Schalter für Vibration, Ton und Werbung</li>
+                <li>Tageskammer</li>
+                <li>Einführung</li>
+                <li>Tipps</li>
+                <li>Sprache</li>
+            </ul>
+            <p>Die App sendet das nicht an mich. Einstellungen → Fortschritt löschen entfernt es.</p>
+
+            <h2>Werbung</h2>
+            <p>Werbung läuft über Google AdMob (Google Mobile Ads SDK und Google UMP).</p>
+            <ul>
+                <li>Keine Banner.</li>
+                <li>Eine Vollbildanzeige nur alle drei gewonnenen Kammern nach den Quarzkammern, und nur wenn Werbung in den Einstellungen an ist.</li>
+                <li>Eine belohnte Anzeige nur auf Tipp: Extra-Energie nach einer Niederlage oder ein weiterer Hinweis.</li>
+                <li>Einstellungen → Werbung (dezent) schaltet Anzeigen aus.</li>
+            </ul>
+
+            <h2>Einwilligung und Werbe-Kennung</h2>
+            <p>In der EU/EWR fragt UMP vor der ersten Anzeige nach der Einwilligung. Danach kann iOS die Werbe-Kennung (IDFA) fragen. Systemtext: „Wir verwenden eine Kennung nur, um Werbung dezent und relevant zu halten.“</p>
+            <p>Bei Ablehnung sendet das SDK die IDFA nicht. Anzeigen können nicht personalisiert weiterlaufen.</p>
+
+            <h2>Was Google verarbeiten kann</h2>
+            <p>Nach Googles Offenlegung kann das SDK verarbeiten: ungefähren Standort aus der IP-Adresse, Gerätekennungen, Werbedaten, Produktinteraktion mit Anzeigen, Absturzdaten, Leistungsdaten. Zwecke: Werbung Dritter und Analyse. Das ist Tracking im Sinne von Apple, sobald die Kennung erlaubt ist.</p>
+            <p>Googles Hinweise:</p>
+            <ul>
+                <li><a href="https://developers.google.com/admob/ios/privacy/data-disclosure">developers.google.com/admob/ios/privacy/data-disclosure</a></li>
+                <li><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+            </ul>
+
+            <h2>Keine eigenen Werkzeuge, kein Verkauf</h2>
+            <p>Kein eigenes Analyse- oder Crash-Werkzeug. Wir verkaufen keine Daten.</p>
+
+            <h2>Kinder</h2>
+            <p>Kein Angebot nur für Kinder. Altersfreigabe im Store 4+, in Brasilien A12 wegen Werbung.</p>
+
+            <h2>Kontakt</h2>
+            <p>Michael Alexander Real<br>
+            <a href="mailto:michaelreal84@gmail.com">michaelreal84@gmail.com</a></p>
+        </section>
+
+        <section id="en" class="lang-block" lang="en">
+            <p class="app-name">Privacy Policy</p>
+            <p class="last-updated">Last updated: October 12, 2026</p>
+
+            <div class="highlight">
+                <strong>Summary:</strong> Lumina Vault has no account and no backend of its own. The save stays on the device and is not sent to me. Advertising comes from Google AdMob.
+            </div>
+
+            <h2>The app</h2>
+            <p>Lumina Vault is a puzzle on a grid for iPhone and iPad, portrait only. The app is free. There are no in-app purchases, no account, no password, and no backend of its own.</p>
+            <p>Bundle ID: com.michaelreal.luminavault</p>
+            <p>54 chambers, five worlds: Quarzkammern, Glutforge, Frostarchiv, Schattennische, Nexuskrone.</p>
+            <p>The default language is German. English is only under Einstellungen → Sprache.</p>
+
+            <h2>Save data on the device</h2>
+            <p>The save stays only on the device, key <strong>luminavault.progress.v1</strong> (AsyncStorage). It holds:</p>
+            <ul>
+                <li>stars (Sterne)</li>
+                <li>shards (Splitter)</li>
+                <li>upgrades</li>
+                <li>switches for vibration, sound, and ads</li>
+                <li>daily chamber (Tageskammer)</li>
+                <li>introduction</li>
+                <li>tips</li>
+                <li>language</li>
+            </ul>
+            <p>The app does not send this to me. Einstellungen → Fortschritt löschen removes it.</p>
+
+            <h2>Advertising</h2>
+            <p>Ads run through Google AdMob (Google Mobile Ads SDK and Google UMP).</p>
+            <ul>
+                <li>No banners.</li>
+                <li>One full-screen ad only every three won chambers after the Quarzkammern, and only if ads are turned on in settings.</li>
+                <li>One rewarded ad only when you tap it: extra energy after a loss, or one more hint.</li>
+                <li>Einstellungen → Werbung (dezent) turns ads off.</li>
+            </ul>
+
+            <h2>Consent and advertising identifier</h2>
+            <p>In the EU/EEA, UMP asks for consent before the first ad. After that, iOS may ask for the advertising identifier (IDFA). System text: „Wir verwenden eine Kennung nur, um Werbung dezent und relevant zu halten.“</p>
+            <p>If you decline, the SDK does not send the IDFA. Ads can continue without personalization.</p>
+
+            <h2>What Google may process</h2>
+            <p>According to Google's disclosure, the SDK may process: approximate location from the IP address, device identifiers, advertising data, product interaction with ads, crash data, and performance data. Purposes: third-party advertising and analytics. This is tracking in Apple's sense once the identifier is allowed.</p>
+            <p>Google's notes:</p>
+            <ul>
+                <li><a href="https://developers.google.com/admob/ios/privacy/data-disclosure">developers.google.com/admob/ios/privacy/data-disclosure</a></li>
+                <li><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+            </ul>
+
+            <h2>No tools of my own, no sale of data</h2>
+            <p>No analytics or crash tool of my own. We do not sell data.</p>
+
+            <h2>Children</h2>
+            <p>This is not an offer only for children. The store age rating is 4+. In Brazil it is A12 because of advertising.</p>
+
+            <h2>Contact</h2>
+            <p>Michael Alexander Real<br>
+            <a href="mailto:michaelreal84@gmail.com">michaelreal84@gmail.com</a></p>
+        </section>
+    </div>
+</body>
+</html>
